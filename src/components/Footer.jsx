@@ -3,7 +3,7 @@ import GitHub from "@mui/icons-material/GitHub";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import EmailIcon from "@mui/icons-material/Email";
-import "../styles/footer.css";
+import "../styles/Footer.css";
 
 function Footer() {
   return (
