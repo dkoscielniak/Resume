@@ -32,25 +32,3 @@ export default function Navbar() {
     </div>
   );
 }
-
-// Old nav bar
-
-// return (
-//     <nav className="nav">
-//       <ul>
-//         <li>
-//           <a href="/Home">Home</a>
-//         </li>
-//         <li>
-//           <a href="/Skills">Skills</a>
-//         </li>
-//         <li>
-//           <a href="/Portfolio">Portfolio</a>
-//         </li>
-//         <li>
-//           <a href="/Contact">Contact</a>
-//         </li>
-//       </ul>
-//     </nav>
-//   );
-// }

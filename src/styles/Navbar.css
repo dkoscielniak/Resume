@@ -21,6 +21,7 @@
 
 .navbar a:hover {
   color: #6c757d;
+  text-decoration: none;
 }
 
 .toggle {

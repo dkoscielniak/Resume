@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-.skills h1 {
+.title {
   color: #222;
   height: 20vh;
   display: flex;
@@ -109,5 +109,55 @@
 @media only screen and (max-width: 1150px) {
   .framed {
     width: 300px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .framed {
+    width: 250px;
+  }
+}
+
+.contact {
+  font-size: 35px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #222;
+}
+
+.contactTitle {
+  color: white;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  font-size: 65px;
+}
+
+.form-control:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.col-form-label {
+  font-size: 20px;
+  float: left;
+}
+
+.mail {
+  filter: invert(47%) sepia(6%) saturate(614%) hue-rotate(167deg)
+    brightness(95%) contrast(89%);
+}
+
+@media only screen and (max-width: 767px) {
+  .contactTitle {
+    font-size: 45px;
+  }
+  .mail {
+    width: 50px;
   }
 }
