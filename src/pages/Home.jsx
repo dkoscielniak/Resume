@@ -5,13 +5,15 @@ import envelope from "../Images/envelope.svg";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home mt-1">
       {/* about section */}
       <div className="about">
         <img className="framed" src={Headshot} width="350px" alt="" />
         <h2>Hi, My name is Damian</h2>
         <div className="prompt">
-          <p>A motivated person with a passion for learning and creating.</p>
+          <p className="description">
+            A motivated person with a passion for learning and creating.
+          </p>
           {/* <LinkedInIcon />
           <EmailIcon />
           <GithubIcon /> */}
@@ -38,7 +40,7 @@ function Home() {
 
       {/* contact section */}
 
-      <div className="contact">
+      <div className="contact mb-1">
         <h1 className="contactTitle">Contact</h1>
         <div class="container">
           <div class="row align-items-stretch justify-content-center no-gutters">
