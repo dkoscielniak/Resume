@@ -32,6 +32,7 @@
 
 .framed {
   box-shadow: -50px -50px 0 -40px white, 50px 50px 0 -40px #6c757d;
+  height: 55%;
 }
 
 .about .prompt {
