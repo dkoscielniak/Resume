@@ -13,7 +13,7 @@ function Projects() {
       <div className="projectList">
         <ProjectItem name="Personal Website" image={project1} />
         <ProjectItem name="Small Cleaning Business Website" image={project2} />
-        <ProjectItem name="Social Media Website" image={project3} />
+        <ProjectItem name="Keeper - A note Taking App" image={project3} />
       </div>
     </div>
   );

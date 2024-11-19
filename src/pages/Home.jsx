@@ -119,7 +119,7 @@ function Home() {
                     </div>
                   </div>
                   <div class="row justify-content-center">
-                    <div class="col-md-3 form-group text-center">
+                    <div class="maxWidth col-md-3 form-group text-center">
                       <input
                         type="button"
                         value="Send Message"

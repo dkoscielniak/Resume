@@ -12,8 +12,29 @@ export default function Navbar() {
     setOpenNavbar(false);
   }, [location]);
 
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 600);
+
+  useEffect(() => {
+    // Function to handle window resize
+    const handleResize = () => {
+      // Update state based on screen size
+      setIsLargeScreen(window.innerWidth > 600);
+    };
+
+    // Attach event listener to window resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup the event listener when component unmounts
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []); // Empty dependency array to run once when the component mounts
+
   return (
-    <div className="navbar" id={OpenNavbar ? "open" : "close"}>
+    <div
+      className="navbar"
+      id={OpenNavbar && !isLargeScreen ? "open" : "close"}
+    >
       <div className="toggle">
         <button
           onClick={() => {
