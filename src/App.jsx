@@ -6,6 +6,8 @@ import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import "./App.css";
 import Footer from "./components/Footer";
+import PortfolioDisplay from "./pages/portfolioDisplay";
+import { Profiler } from "react";
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Projects />} />
+          <Route path="/portfolio/:id" element={<PortfolioDisplay />} />
           <Route path="/experience" element={<Experience />} />
         </Routes>
         <Footer />
